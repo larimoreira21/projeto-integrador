@@ -1,0 +1,25 @@
+.DS_Store
+
+# Front-end
+front-end/node_modules/
+front-end/dist/
+front-end/.env
+front-end/.env.*
+!front-end/.env.example
+front-end/*.local
+
+# Back-end
+back-end/vendor/
+back-end/node_modules/
+back-end/.env
+back-end/.env.backup
+back-end/.env.production
+back-end/public/build/
+back-end/public/hot/
+back-end/public/storage
+back-end/storage/*.key
+back-end/storage/pail
+back-end/.phpunit.cache
+back-end/.phpunit.result.cache
+back-end/auth.json
+back-end/.phpactor.json
